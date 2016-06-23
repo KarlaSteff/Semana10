@@ -1,17 +1,20 @@
 class Persona:
-    def inicializar(self,nom,sueldo):
+    def inicializar(self,nom):
         self.nombre=nom
-        sefl.sueldo=suel
 
     def imprimir(self):
-        print ('Nombre:')
-        print self.nombre
-        print ('<br>')
-        print ('Sueldo: $')
-        if self.sueldo>500:
-        	print ('El empleado paga impuestos')
+        print ('Nombre:', self.nombre)
+
 
 persona1=Persona()
 persona1.inicializar('Eddy')
-persona1.imprimir(' 1000')
-#persona1.imprimir()
+persona1.imprimir()
+
+persona2=Persona()
+persona2.inicializar('Karla')
+persona2.imprimir()
+
+
+persona3=Persona()
+persona3.inicializar('Víctor')
+persona3.imprimir()
