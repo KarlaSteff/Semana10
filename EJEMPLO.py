@@ -4,12 +4,12 @@ class Persona:
         sefl.sueldo=suel
 
     def imprimir(self):
-        print 'Nombre:'
+        print ('Nombre:')
         print self.nombre
-        print '<br>'
-        print 'Sueldo: '
+        print ('<br>')
+        print ('Sueldo: $')
         if self.sueldo>500:
-        	print 'El empleado paga impuestos'
+        	print ('El empleado paga impuestos')
 
 persona1=Persona()
 persona1.inicializar('Eddy')
